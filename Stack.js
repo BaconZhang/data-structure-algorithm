@@ -65,7 +65,7 @@ function checkBrackets(expression) {
   return !stack.length
 }
 
-console.log(checkBrackets('(2)'))
+console.log(checkBrackets('(2)')) 
 console.log(checkBrackets('((2))()'))
 console.log(checkBrackets('(2'))
 console.log(checkBrackets('(2))'))
